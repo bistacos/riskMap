@@ -1,4 +1,4 @@
- 'use strict';
+'use strict';
 
 var React = require('react-native');
 var MapboxGLMap = require('react-native-mapbox-gl');
@@ -16,12 +16,12 @@ var Example = React.createClass({
   getInitialState() {
     return {
       center: {
-        latitude: 40.72052634,
-        longitude: -73.97686958312988
+        latitude: 30.2500,
+        longitude: -97.7427778
       },
       zoom: 11,
       annotations: [{
-        coordinates: [40.72052634, -73.97686958312988],
+        coordinates: [30.2500, -97.7427778],
         "type": "point",
         title: 'This is marker 1',
         subtitle: 'It has a rightCalloutAccessory too',
